@@ -1,0 +1,45 @@
+/*Va voir l'onglet "Concept de fenêtre" dans la barre des favoris
+(pour régler le problème de la bannière)*/
+
+html {
+    background: #b5d3e5;
+}
+
+header {
+    background-color: pink;
+    position: sticky;
+    top: 10px;
+    margin:0;
+    padding:0; 
+}
+
+h1 {
+    color:rgb(71, 126, 159);
+    text-align: center;
+    font-size: 4.5em;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(43, 20, 146);
+}
+
+#myLogo {
+    height: 165px;
+    width: 165px;
+    position: static;
+}
+
+button {
+    padding: 0.5em;
+    position: relative; bottom: 80px; left: 40px;
+    margin-left: 15px;
+}
+
+#monPanier {
+    padding: 4em
+}
+
+#monProfil {
+    padding: 4em;
+}
