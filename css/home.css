@@ -1,1 +1,74 @@
+/***Reset***/
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/***Display***/
+
+.d-flex {
+    display: flex;
+}
+
+
+/***Nav***/
+
+nav {
+    background-color: pink;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1em;
+    text-align: center;
+    height: 10vh;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(43, 20, 146);
+}
+
+
+/***Body***/
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #b5d3e5;
+}
+
+h1 {
+    color:rgb(71, 126, 159);
+    text-align: center;
+    font-size: 4.5em;
+}
+
+#myLogo {
+    height: 165px;
+    width: 165px;
+    position: static;
+}
+
+button {
+    padding: 0.5em;
+    position: relative; bottom: 80px; left: 40px;
+    margin-left: 15px;
+}
+
+#cart {
+    padding: 4em;
+}
+
+#profile {
+    padding: 4em;
+}
